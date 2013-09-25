@@ -1,0 +1,4 @@
+C:\Projects\Documents\DataImporter\DataImporter\Serializer\bin\Debug\Serializer.dll
+C:\Projects\Documents\DataImporter\DataImporter\Serializer\bin\Debug\Serializer.pdb
+C:\Projects\Documents\DataImporter\DataImporter\Serializer\obj\Debug\Serializer.dll
+C:\Projects\Documents\DataImporter\DataImporter\Serializer\obj\Debug\Serializer.pdb

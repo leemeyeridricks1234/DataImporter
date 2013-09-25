@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Model.Table">
+    <Position X="1.75" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAMAAAAAAAAQAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Table.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Relationships" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Model.Relationship" Collapsed="true">
+    <Position X="5.75" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAgAAAAACAAAAAAQAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Relationship.cs</FileName>
+      <NewMemberFileName>RelationShip.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Column">
+    <Position X="1.75" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAIAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Column.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Condition">
+    <Position X="9.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAABAAAAAAAAAAAAAAAAgAAAAIAA=</HashCode>
+      <FileName>Condition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Collections.Generic.Dictionary&lt;TKey, TValue&gt;" Collapsed="true">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Model.RecordHierarchy">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RecordHierarchy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Row">
+    <Position X="1.75" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Row.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Collections.Generic.LinkedList&lt;T&gt;" Collapsed="true">
+    <Position X="14.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Enum Name="Model.ConditionalOperator">
+    <Position X="6.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgCA=</HashCode>
+      <FileName>ConditionalOperator.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

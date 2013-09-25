@@ -1,0 +1,12 @@
+C:\Projects\Documents\DataImporter\DataImporter\ModelTest\bin\Debug\ModelTest.dll
+C:\Projects\Documents\DataImporter\DataImporter\ModelTest\bin\Debug\ModelTest.pdb
+C:\Projects\Documents\DataImporter\DataImporter\ModelTest\bin\Debug\Model.dll
+C:\Projects\Documents\DataImporter\DataImporter\ModelTest\bin\Debug\nunit.framework.dll
+C:\Projects\Documents\DataImporter\DataImporter\ModelTest\bin\Debug\Serializer.dll
+C:\Projects\Documents\DataImporter\DataImporter\ModelTest\bin\Debug\Model.pdb
+C:\Projects\Documents\DataImporter\DataImporter\ModelTest\bin\Debug\Serializer.pdb
+C:\Projects\Documents\DataImporter\DataImporter\ModelTest\bin\Debug\nunit.framework.xml
+C:\Projects\Documents\DataImporter\DataImporter\ModelTest\obj\Debug\ModelTest.csprojResolveAssemblyReference.cache
+C:\Projects\Documents\DataImporter\DataImporter\ModelTest\obj\Debug\ModelTest.dll
+C:\Projects\Documents\DataImporter\DataImporter\ModelTest\obj\Debug\ModelTest.pdb
+C:\Projects\Documents\DataImporter\DataImporter\ModelTest\bin\Debug\Relationship\DBRelationShips.xml

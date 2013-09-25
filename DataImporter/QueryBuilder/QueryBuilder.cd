@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="QueryBuilder.SqlServerTemplateProvider">
+    <Position X="8.25" Y="4.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>YAAAAAIAIAAAAAgACgAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>SqlServerTemplateProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="QueryBuilder.ISelectQueryBuilder">
+    <Position X="2.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>IQueryBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="QueryBuilder.IQueryTemplateProvider">
+    <Position X="8.25" Y="1" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>YAAAAAIAIAAAAAgACgAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>IQueryTemplateProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="QueryBuilder.IInsertQueryBuilder" Collapsed="true">
+    <Position X="4.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>IQueryBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="QueryBuilder.IDeleteQueryBuilder" Collapsed="true">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>IQueryBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="QueryBuilder.IPrimaryKeyRelationShipQueryBuilder" Collapsed="true">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>IQueryBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="QueryBuilder.IForeignKeyRelationShipQueryBuilder" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>IQueryBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="QueryBuilder.IWhereQueryBuilder" Collapsed="true">
+    <Position X="3.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>IQueryBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="QueryBuilder.DatabaseType">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DatabaseType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
