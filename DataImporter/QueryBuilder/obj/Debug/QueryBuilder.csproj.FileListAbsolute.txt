@@ -22,3 +22,15 @@ C:\Projects\Documents\DataImporter\DataImporter\QueryBuilder\bin\Debug\Structure
 C:\Projects\Documents\DataImporter\DataImporter\QueryBuilder\obj\Debug\QueryBuilder.csprojResolveAssemblyReference.cache
 C:\Projects\Documents\DataImporter\DataImporter\QueryBuilder\obj\Debug\QueryBuilder.dll
 C:\Projects\Documents\DataImporter\DataImporter\QueryBuilder\obj\Debug\QueryBuilder.pdb
+C:\Projects\DataImporter\DataImporter\DataImporter\QueryBuilder\bin\Debug\QueryBuilder.dll
+C:\Projects\DataImporter\DataImporter\DataImporter\QueryBuilder\bin\Debug\QueryBuilder.pdb
+C:\Projects\DataImporter\DataImporter\DataImporter\QueryBuilder\bin\Debug\Common.dll
+C:\Projects\DataImporter\DataImporter\DataImporter\QueryBuilder\bin\Debug\Model.dll
+C:\Projects\DataImporter\DataImporter\DataImporter\QueryBuilder\bin\Debug\StructureMap.dll
+C:\Projects\DataImporter\DataImporter\DataImporter\QueryBuilder\bin\Debug\Common.pdb
+C:\Projects\DataImporter\DataImporter\DataImporter\QueryBuilder\bin\Debug\Model.pdb
+C:\Projects\DataImporter\DataImporter\DataImporter\QueryBuilder\bin\Debug\StructureMap.pdb
+C:\Projects\DataImporter\DataImporter\DataImporter\QueryBuilder\bin\Debug\StructureMap.xml
+C:\Projects\DataImporter\DataImporter\DataImporter\QueryBuilder\obj\Debug\QueryBuilder.csprojResolveAssemblyReference.cache
+C:\Projects\DataImporter\DataImporter\DataImporter\QueryBuilder\obj\Debug\QueryBuilder.dll
+C:\Projects\DataImporter\DataImporter\DataImporter\QueryBuilder\obj\Debug\QueryBuilder.pdb

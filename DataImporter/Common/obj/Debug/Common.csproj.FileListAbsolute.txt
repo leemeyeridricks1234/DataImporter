@@ -13,3 +13,11 @@ C:\Projects\Documents\DataImporter\DataImporter\Common\bin\Debug\StructureMap.pd
 C:\Projects\Documents\DataImporter\DataImporter\Common\bin\Debug\StructureMap.xml
 C:\Projects\Documents\DataImporter\DataImporter\Common\obj\Debug\Common.dll
 C:\Projects\Documents\DataImporter\DataImporter\Common\obj\Debug\Common.pdb
+C:\Projects\DataImporter\DataImporter\DataImporter\Common\bin\Debug\Common.dll
+C:\Projects\DataImporter\DataImporter\DataImporter\Common\bin\Debug\Common.pdb
+C:\Projects\DataImporter\DataImporter\DataImporter\Common\bin\Debug\StructureMap.dll
+C:\Projects\DataImporter\DataImporter\DataImporter\Common\bin\Debug\StructureMap.pdb
+C:\Projects\DataImporter\DataImporter\DataImporter\Common\bin\Debug\StructureMap.xml
+C:\Projects\DataImporter\DataImporter\DataImporter\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Projects\DataImporter\DataImporter\DataImporter\Common\obj\Debug\Common.dll
+C:\Projects\DataImporter\DataImporter\DataImporter\Common\obj\Debug\Common.pdb

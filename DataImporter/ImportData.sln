@@ -29,6 +29,36 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelTest", "ModelTest\Mode
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serializer", "Serializer\Serializer.csproj", "{0FC21743-D314-43F9-BB63-44BC4483DD2F}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Website", "http://localhost:51071", "{D470F77F-4382-4698-BA96-FF86D2B1A763}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{A7EBCCE0-F400-4CD2-B629-DAAE99C1B2B3}|Workflow.dll;{5E6EA67A-4D81-4DD6-822A-9946D2FC6696}|BootStrapper.dll;{83B4AC80-A601-421E-9818-521E459A3DBA}|Common.dll;{DF06AC30-E469-4582-8803-E3520D5D26E9}|Database.dll;{EC21148F-8BA8-431F-B388-988A7896572B}|Model.dll;{3F478405-A621-43A6-A8EC-8E7FCA433601}|Processor.dll;{0455B0BB-D6E3-4F47-B113-13F8A82C8911}|QueryBuilder.dll;{0FC21743-D314-43F9-BB63-44BC4483DD2F}|Serializer.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51071"
+		Debug.AspNetCompiler.PhysicalPath = "Website\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51071\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51071"
+		Release.AspNetCompiler.PhysicalPath = "Website\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51071\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "Website\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B789ED3F-794C-4B9E-905F-06CD8D5AD2EF}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +117,10 @@ Global
 		{0FC21743-D314-43F9-BB63-44BC4483DD2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FC21743-D314-43F9-BB63-44BC4483DD2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FC21743-D314-43F9-BB63-44BC4483DD2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D470F77F-4382-4698-BA96-FF86D2B1A763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D470F77F-4382-4698-BA96-FF86D2B1A763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D470F77F-4382-4698-BA96-FF86D2B1A763}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D470F77F-4382-4698-BA96-FF86D2B1A763}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

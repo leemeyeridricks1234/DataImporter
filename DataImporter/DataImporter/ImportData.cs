@@ -16,8 +16,8 @@ namespace Processor
     {
         private readonly IDatabaseProvider _provider;
         private readonly IList<string> _traversedRelationship;
-        private Relationships customeDefinedRelationship = null;
-        private Dictionary<string, List<string>> _computedColumns = new Dictionary<string, List<string>>(); 
+        private Relationships _customeDefinedRelationship = null;
+        private readonly Dictionary<string, List<string>> _computedColumns = new Dictionary<string, List<string>>(); 
         public ImportData(IDatabaseProvider provider)
         {
             _provider = provider;
@@ -68,7 +68,6 @@ namespace Processor
         {
             var foreignKeyQuery = IocContainer.Resolve<IForeignKeyRelationShipQueryBuilder>();
             var relationShips = GetRelationShips(foreignKeyQuery.GetQuery(tableName));
-            GetCustomDefinedForeignKeyRelationships(relationShips, tableName);
             foreach (var relationship in relationShips)
             {
                 string value = GetValuesInCsv(row, relationship.PrimaryKeyColumn);
@@ -89,7 +88,6 @@ namespace Processor
         {
             var parentKeyQuery = IocContainer.Resolve<IPrimaryKeyRelationShipQueryBuilder>();
             var relationShips = GetRelationShips(parentKeyQuery.GetQuery(tableName));
-            GetCustomDefinedPrimaryKeyRelationships(relationShips, tableName);
             foreach (var relationship in relationShips)
             {
                 var value = GetValuesInCsv(row, relationship.ForiegnKeyColumn);
@@ -105,28 +103,7 @@ namespace Processor
                 }
             }
         }
-
-        private void GetCustomDefinedForeignKeyRelationships(List<Relationship> relationships, string tableName)
-        {
-            var customRels = GetCustomDefineRelationships().Where(x => x.ForiegnKeyTable == tableName);
-            if(customRels.Count()>0)
-                relationships.AddRange(customRels);
-        }
-
-        private void GetCustomDefinedPrimaryKeyRelationships(List<Relationship> relationships, string tableName)
-        {
-            var customRels = GetCustomDefineRelationships().Where(x => x.PrimaryKeyTable == tableName);
-            if (customRels.Count() > 0)
-                relationships.AddRange(customRels);
-        }
-
-        private Relationships GetCustomDefineRelationships()
-        {
-            if (customeDefinedRelationship == null)
-                customeDefinedRelationship = XmlSerialize.Deserialize<Relationships>(File.ReadAllText(@"Relationship\DBRelationShips.xml"));
-            return customeDefinedRelationship;
-        }
-
+        
         private static string GetValuesInCsv(IEnumerable<Row> record, string columnName)
         {
             string value = "";
@@ -143,7 +120,7 @@ namespace Processor
             return value;
         }
 
-        private List<Relationship> GetRelationShips(string query)
+        private IEnumerable<Relationship> GetRelationShips(string query)
         {
             var reader = _provider.GetReader(query);
             var relationShips = new List<Relationship>();

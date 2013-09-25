@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using BootStrapper;
 using Common;
 using Model;
@@ -14,25 +15,26 @@ namespace Workflow
             new ComponentRegistry();
         }
 
-        public void Import()
+        public List<string> Import(string idNumber, ConditionalOperator conditionalOperator)
         {
             var importData = IocContainer.Resolve<IImportData>();
             var insertQueryBuilder = IocContainer.Resolve<IInsertQueryBuilder>();
             var condition = new Condition
                 {
                     Column = "IDNumber",
-                    Operator = ConditionalOperator.EqualTo,
-                    Value = "8410045076083"
+                    Operator = conditionalOperator,
+                    Value = idNumber
                 };
             var records = importData.GetHierarchy("BaseCustomer", condition);
-
+            var queries = new List<string>();
             foreach (var record in records)
             {
                 foreach (var row in record.Records)
                 {
-                    Console.WriteLine(insertQueryBuilder.GetQuery(record.Name, record.Primarykey, row, record.IsIdentityInsertOn));
+                    queries.Add(insertQueryBuilder.GetQuery(record.Name, record.Primarykey, row, record.IsIdentityInsertOn));
                 }
             }
+            return queries;
         }
     }
 }

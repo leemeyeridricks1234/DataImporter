@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DatabaseTables>
+  <Database name="DTS">
+    <LookupTables>
+      <Table>
+        <Name></Name>
+      </Table>
+    </LookupTables>
+    <MainTables>
+      <Table>
+        <Name></Name>
+      </Table>
+    </MainTables>
+  </Database>
+</DatabaseTables>

@@ -1,0 +1,29 @@
+﻿body 
+{
+    font-family: verdana;
+    font-size: 12px;
+    width: 100%;
+}
+
+body form div.content {
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+}
+body form div.content div#header {
+    background: url("../images/header.jpeg");
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 120px;
+    width: 100%;
+    
+}
+    body form div.content div#header  h1{
+        font-size: 20px;
+        float: left;
+        margin-left: 125px;
+        margin-top: auto auto;
+    }
+body form div.content div {
+    
+}
